@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <h1 className="text-xl font-bold text-black">
           <Link href="/" aria-label="Go to homepage">
-            Accessible Cards
+            Accessibility
           </Link>
         </h1>
         <input

@@ -6,5 +6,9 @@ import React from "react";
 export default function Page() {
   const params = useParams();
 
-  return <div>ID:{params.id}</div>;
+  return (
+    <section>
+      <h2 className="px-44">ID:{params.id}</h2>
+    </section>
+  );
 }

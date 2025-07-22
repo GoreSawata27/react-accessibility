@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Buttons from "@/Components/Buttons";
 
 const cards = [
   { id: "1", title: "Card One", description: "Brief info about Card One" },
@@ -23,6 +24,10 @@ export default function Home() {
           </Link>
         ))}
       </section>
+
+      {/* Section 2 */}
+
+      <Buttons />
     </main>
   );
 }
