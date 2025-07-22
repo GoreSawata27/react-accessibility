@@ -10,7 +10,7 @@ export default function Buttons() {
 
   return (
     <section aria-label="button-actions" className="flex flex-col gap-10">
-      <h2 className="pt-10">Button Actions</h2>
+      <h1 className="pt-10">Button Actions</h1>
       <button type="submit" className="bg-amber-200 p-4 w-72" onClick={() => alert("Button clicked")}>
         This is button
       </button>

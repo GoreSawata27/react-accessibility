@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="bg-blue-300 p-4 text-white">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold text-black">
+        <h1 className="  text-black">
           <Link href="/" aria-label="Go to homepage">
             Accessibility
           </Link>

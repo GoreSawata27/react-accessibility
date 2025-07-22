@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Buttons from "@/Components/Buttons";
+import Form from "@/Components/Form";
 
 const cards = [
   { id: "1", title: "Card One", description: "Brief info about Card One" },
@@ -10,7 +11,7 @@ const cards = [
 export default function Home() {
   return (
     <main className="p-4 max-w-6xl mx-auto">
-      <h2 className="text-2xl font-bold mb-4">Cards</h2>
+      <h1 className="">Cards</h1>
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4" aria-label="Card list">
         {cards.map((card) => (
           <Link
@@ -28,6 +29,10 @@ export default function Home() {
       {/* Section 2 */}
 
       <Buttons />
+
+      {/* Section 3 */}
+
+      <Form />
     </main>
   );
 }
