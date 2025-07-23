@@ -1,6 +1,9 @@
 import Link from "next/link";
 import Buttons from "@/Components/Buttons";
 import Form from "@/Components/Form";
+import List from "@/Components/List";
+import Select from "@/Components/Select";
+import Checkbox from "@/Components/Checkbox";
 
 const cards = [
   { id: "1", title: "Card One", description: "Brief info about Card One" },
@@ -31,8 +34,21 @@ export default function Home() {
       <Buttons />
 
       {/* Section 3 */}
-
+      <br />
+      <br />
       <Form />
+
+      {/* Section 4 */}
+      <br />
+      <br />
+      <List />
+      <br />
+      <br />
+      <Select />
+
+      <br />
+      <br />
+      <Checkbox />
     </main>
   );
 }
