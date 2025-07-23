@@ -49,6 +49,9 @@ export default function Home() {
       <br />
       <br />
       <Checkbox />
+
+      <br />
+      <br />
     </main>
   );
 }
